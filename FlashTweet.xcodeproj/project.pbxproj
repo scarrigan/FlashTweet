@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A8B6A1914868FCF0074E6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1814868FCF0074E6A8 /* UIKit.framework */; };
+		2A8B6A1B14868FCF0074E6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */; };
+		2A8B6A1D14868FCF0074E6A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1C14868FCF0074E6A8 /* CoreGraphics.framework */; };
+		2A8B6A2314868FCF0074E6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A8B6A2114868FCF0074E6A8 /* InfoPlist.strings */; };
+		2A8B6A2514868FCF0074E6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6A2414868FCF0074E6A8 /* main.m */; };
+		2A8B6A2914868FCF0074E6A8 /* FlashTweetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6A2814868FCF0074E6A8 /* FlashTweetAppDelegate.m */; };
+		2A8B6A2C14868FCF0074E6A8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8B6A2A14868FCF0074E6A8 /* MainStoryboard.storyboard */; };
+		2A8B6A2F14868FCF0074E6A8 /* FlashTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6A2E14868FCF0074E6A8 /* FlashTweetViewController.m */; };
+		2A8B6A3714868FCF0074E6A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A3614868FCF0074E6A8 /* SenTestingKit.framework */; };
+		2A8B6A3814868FCF0074E6A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1814868FCF0074E6A8 /* UIKit.framework */; };
+		2A8B6A3914868FCF0074E6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */; };
+		2A8B6A4114868FCF0074E6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A8B6A3F14868FCF0074E6A8 /* InfoPlist.strings */; };
+		2A8B6A4414868FCF0074E6A8 /* FlashTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8B6A3A14868FCF0074E6A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8B6A0B14868FCF0074E6A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8B6A1314868FCF0074E6A8;
+			remoteInfo = FlashTweet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A8B6A1414868FCF0074E6A8 /* FlashTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8B6A1814868FCF0074E6A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A8B6A1C14868FCF0074E6A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A8B6A2014868FCF0074E6A8 /* FlashTweet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashTweet-Info.plist"; sourceTree = "<group>"; };
+		2A8B6A2214868FCF0074E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A8B6A2414868FCF0074E6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A8B6A2614868FCF0074E6A8 /* FlashTweet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashTweet-Prefix.pch"; sourceTree = "<group>"; };
+		2A8B6A2714868FCF0074E6A8 /* FlashTweetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashTweetAppDelegate.h; sourceTree = "<group>"; };
+		2A8B6A2814868FCF0074E6A8 /* FlashTweetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTweetAppDelegate.m; sourceTree = "<group>"; };
+		2A8B6A2B14868FCF0074E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2A8B6A2D14868FCF0074E6A8 /* FlashTweetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashTweetViewController.h; sourceTree = "<group>"; };
+		2A8B6A2E14868FCF0074E6A8 /* FlashTweetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTweetViewController.m; sourceTree = "<group>"; };
+		2A8B6A3514868FCF0074E6A8 /* FlashTweetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashTweetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8B6A3614868FCF0074E6A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2A8B6A3E14868FCF0074E6A8 /* FlashTweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashTweetTests-Info.plist"; sourceTree = "<group>"; };
+		2A8B6A4014868FCF0074E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A8B6A4214868FCF0074E6A8 /* FlashTweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashTweetTests.h; sourceTree = "<group>"; };
+		2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTweetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8B6A1114868FCF0074E6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A1914868FCF0074E6A8 /* UIKit.framework in Frameworks */,
+				2A8B6A1B14868FCF0074E6A8 /* Foundation.framework in Frameworks */,
+				2A8B6A1D14868FCF0074E6A8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8B6A3114868FCF0074E6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A3714868FCF0074E6A8 /* SenTestingKit.framework in Frameworks */,
+				2A8B6A3814868FCF0074E6A8 /* UIKit.framework in Frameworks */,
+				2A8B6A3914868FCF0074E6A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8B6A0914868FCF0074E6A8 = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A1E14868FCF0074E6A8 /* FlashTweet */,
+				2A8B6A3C14868FCF0074E6A8 /* FlashTweetTests */,
+				2A8B6A1714868FCF0074E6A8 /* Frameworks */,
+				2A8B6A1514868FCF0074E6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8B6A1514868FCF0074E6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A1414868FCF0074E6A8 /* FlashTweet.app */,
+				2A8B6A3514868FCF0074E6A8 /* FlashTweetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8B6A1714868FCF0074E6A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A1814868FCF0074E6A8 /* UIKit.framework */,
+				2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */,
+				2A8B6A1C14868FCF0074E6A8 /* CoreGraphics.framework */,
+				2A8B6A3614868FCF0074E6A8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A8B6A1E14868FCF0074E6A8 /* FlashTweet */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A2714868FCF0074E6A8 /* FlashTweetAppDelegate.h */,
+				2A8B6A2814868FCF0074E6A8 /* FlashTweetAppDelegate.m */,
+				2A8B6A2A14868FCF0074E6A8 /* MainStoryboard.storyboard */,
+				2A8B6A2D14868FCF0074E6A8 /* FlashTweetViewController.h */,
+				2A8B6A2E14868FCF0074E6A8 /* FlashTweetViewController.m */,
+				2A8B6A1F14868FCF0074E6A8 /* Supporting Files */,
+			);
+			path = FlashTweet;
+			sourceTree = "<group>";
+		};
+		2A8B6A1F14868FCF0074E6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A2014868FCF0074E6A8 /* FlashTweet-Info.plist */,
+				2A8B6A2114868FCF0074E6A8 /* InfoPlist.strings */,
+				2A8B6A2414868FCF0074E6A8 /* main.m */,
+				2A8B6A2614868FCF0074E6A8 /* FlashTweet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A8B6A3C14868FCF0074E6A8 /* FlashTweetTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A4214868FCF0074E6A8 /* FlashTweetTests.h */,
+				2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */,
+				2A8B6A3D14868FCF0074E6A8 /* Supporting Files */,
+			);
+			path = FlashTweetTests;
+			sourceTree = "<group>";
+		};
+		2A8B6A3D14868FCF0074E6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B6A3E14868FCF0074E6A8 /* FlashTweetTests-Info.plist */,
+				2A8B6A3F14868FCF0074E6A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8B6A1314868FCF0074E6A8 /* FlashTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8B6A4714868FCF0074E6A8 /* Build configuration list for PBXNativeTarget "FlashTweet" */;
+			buildPhases = (
+				2A8B6A1014868FCF0074E6A8 /* Sources */,
+				2A8B6A1114868FCF0074E6A8 /* Frameworks */,
+				2A8B6A1214868FCF0074E6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashTweet;
+			productName = FlashTweet;
+			productReference = 2A8B6A1414868FCF0074E6A8 /* FlashTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A8B6A3414868FCF0074E6A8 /* FlashTweetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8B6A4A14868FCF0074E6A8 /* Build configuration list for PBXNativeTarget "FlashTweetTests" */;
+			buildPhases = (
+				2A8B6A3014868FCF0074E6A8 /* Sources */,
+				2A8B6A3114868FCF0074E6A8 /* Frameworks */,
+				2A8B6A3214868FCF0074E6A8 /* Resources */,
+				2A8B6A3314868FCF0074E6A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8B6A3B14868FCF0074E6A8 /* PBXTargetDependency */,
+			);
+			name = FlashTweetTests;
+			productName = FlashTweetTests;
+			productReference = 2A8B6A3514868FCF0074E6A8 /* FlashTweetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8B6A0B14868FCF0074E6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2A8B6A0E14868FCF0074E6A8 /* Build configuration list for PBXProject "FlashTweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A8B6A0914868FCF0074E6A8;
+			productRefGroup = 2A8B6A1514868FCF0074E6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8B6A1314868FCF0074E6A8 /* FlashTweet */,
+				2A8B6A3414868FCF0074E6A8 /* FlashTweetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8B6A1214868FCF0074E6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A2314868FCF0074E6A8 /* InfoPlist.strings in Resources */,
+				2A8B6A2C14868FCF0074E6A8 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8B6A3214868FCF0074E6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A4114868FCF0074E6A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A8B6A3314868FCF0074E6A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8B6A1014868FCF0074E6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A2514868FCF0074E6A8 /* main.m in Sources */,
+				2A8B6A2914868FCF0074E6A8 /* FlashTweetAppDelegate.m in Sources */,
+				2A8B6A2F14868FCF0074E6A8 /* FlashTweetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8B6A3014868FCF0074E6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8B6A4414868FCF0074E6A8 /* FlashTweetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A8B6A3B14868FCF0074E6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8B6A1314868FCF0074E6A8 /* FlashTweet */;
+			targetProxy = 2A8B6A3A14868FCF0074E6A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A8B6A2114868FCF0074E6A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8B6A2214868FCF0074E6A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A8B6A2A14868FCF0074E6A8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8B6A2B14868FCF0074E6A8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		2A8B6A3F14868FCF0074E6A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A8B6A4014868FCF0074E6A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A8B6A4514868FCF0074E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A8B6A4614868FCF0074E6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8B6A4814868FCF0074E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTweet/FlashTweet-Prefix.pch";
+				INFOPLIST_FILE = "FlashTweet/FlashTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A8B6A4914868FCF0074E6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTweet/FlashTweet-Prefix.pch";
+				INFOPLIST_FILE = "FlashTweet/FlashTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2A8B6A4B14868FCF0074E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashTweet.app/FlashTweet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTweet/FlashTweet-Prefix.pch";
+				INFOPLIST_FILE = "FlashTweetTests/FlashTweetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2A8B6A4C14868FCF0074E6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashTweet.app/FlashTweet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashTweet/FlashTweet-Prefix.pch";
+				INFOPLIST_FILE = "FlashTweetTests/FlashTweetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8B6A0E14868FCF0074E6A8 /* Build configuration list for PBXProject "FlashTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8B6A4514868FCF0074E6A8 /* Debug */,
+				2A8B6A4614868FCF0074E6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8B6A4714868FCF0074E6A8 /* Build configuration list for PBXNativeTarget "FlashTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8B6A4814868FCF0074E6A8 /* Debug */,
+				2A8B6A4914868FCF0074E6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A8B6A4A14868FCF0074E6A8 /* Build configuration list for PBXNativeTarget "FlashTweetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8B6A4B14868FCF0074E6A8 /* Debug */,
+				2A8B6A4C14868FCF0074E6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A8B6A0B14868FCF0074E6A8 /* Project object */;
+}
