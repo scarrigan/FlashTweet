@@ -20,6 +20,7 @@
 		2A8B6A3914868FCF0074E6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */; };
 		2A8B6A4114868FCF0074E6A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A8B6A3F14868FCF0074E6A8 /* InfoPlist.strings */; };
 		2A8B6A4414868FCF0074E6A8 /* FlashTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */; };
+		2A8B6A4E148692660074E6A8 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8B6A4D148692660074E6A8 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		2A8B6A4014868FCF0074E6A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A8B6A4214868FCF0074E6A8 /* FlashTweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashTweetTests.h; sourceTree = "<group>"; };
 		2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTweetTests.m; sourceTree = "<group>"; };
+		2A8B6A4D148692660074E6A8 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8B6A4E148692660074E6A8 /* Twitter.framework in Frameworks */,
 				2A8B6A1914868FCF0074E6A8 /* UIKit.framework in Frameworks */,
 				2A8B6A1B14868FCF0074E6A8 /* Foundation.framework in Frameworks */,
 				2A8B6A1D14868FCF0074E6A8 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		2A8B6A1714868FCF0074E6A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A8B6A4D148692660074E6A8 /* Twitter.framework */,
 				2A8B6A1814868FCF0074E6A8 /* UIKit.framework */,
 				2A8B6A1A14868FCF0074E6A8 /* Foundation.framework */,
 				2A8B6A1C14868FCF0074E6A8 /* CoreGraphics.framework */,
