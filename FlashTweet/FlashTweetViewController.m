@@ -7,6 +7,7 @@
 //
 
 #import "FlashTweetViewController.h"
+#import "Logger.h"
 
 @implementation FlashTweetViewController
 
@@ -39,6 +40,9 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Flash Tweet" message:@"Take a photo for your tweet?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
+    [alert show];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -55,6 +59,16 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+#pragma mark - UIAlertView delegate
+- (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) {
+        Log(@"ok");
+    } else {
+        Log(@"cancel");
+    }
+    
 }
 
 @end

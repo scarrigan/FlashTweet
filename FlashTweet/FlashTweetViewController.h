@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlashTweetViewController : UIViewController
+@interface FlashTweetViewController : UIViewController <UIAlertViewDelegate>
 
 @end

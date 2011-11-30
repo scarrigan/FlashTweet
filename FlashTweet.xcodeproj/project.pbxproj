@@ -54,6 +54,7 @@
 		2A8B6A4214868FCF0074E6A8 /* FlashTweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashTweetTests.h; sourceTree = "<group>"; };
 		2A8B6A4314868FCF0074E6A8 /* FlashTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashTweetTests.m; sourceTree = "<group>"; };
 		2A8B6A4D148692660074E6A8 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		2A8B6A4F148698AC0074E6A8 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +121,7 @@
 				2A8B6A2A14868FCF0074E6A8 /* MainStoryboard.storyboard */,
 				2A8B6A2D14868FCF0074E6A8 /* FlashTweetViewController.h */,
 				2A8B6A2E14868FCF0074E6A8 /* FlashTweetViewController.m */,
+				2A8B6A4F148698AC0074E6A8 /* Logger.h */,
 				2A8B6A1F14868FCF0074E6A8 /* Supporting Files */,
 			);
 			path = FlashTweet;
