@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlashTweetViewController : UIViewController <UIAlertViewDelegate>
+@interface FlashTweetViewController : UIViewController <UIAlertViewDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+
+@property (strong, nonatomic) UIImage *tweetPhoto;
+
+- (IBAction)tweet:(id)sender;
 
 @end
